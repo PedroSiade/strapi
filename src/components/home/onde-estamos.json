@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_home_onde_estamos",
+  "info": {
+    "displayName": "OndeEstamos",
+    "icon": "pin",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "localizacaoMedia": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "LocalizacaoEmpresa": {
+      "displayName": "Localizacao",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.localizacao"
+    },
+    "linklocal": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.link"
+    },
+    "contato": {
+      "type": "biginteger"
+    }
+  }
+}

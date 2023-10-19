@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "biblioteca_boletins",
+  "info": {
+    "singularName": "biblioteca-boletim",
+    "pluralName": "biblioteca-boletins",
+    "displayName": "Biblioteca/boletins"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string",
+      "required": true
+    },
+    "Descricao": {
+      "type": "text"
+    },
+    "Media": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": false
+    },
+    "Arquivo": {
+      "allowedTypes": [
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

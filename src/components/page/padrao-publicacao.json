@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_page_padrao_publicacaos",
+  "info": {
+    "displayName": "PadraoPublicacao",
+    "icon": "dashboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Descricao": {
+      "type": "text"
+    },
+    "Media": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "TextoPublicacao": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

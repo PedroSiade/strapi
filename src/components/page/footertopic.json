@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_footertopics",
+  "info": {
+    "displayName": "footertopic",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "Topico": {
+      "type": "string"
+    },
+    "topicItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.link"
+    }
+  }
+}

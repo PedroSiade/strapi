@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_page_localizacaos",
+  "info": {
+    "displayName": "Localizacao",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Rua": {
+      "type": "text",
+      "required": true
+    },
+    "CEP": {
+      "type": "biginteger",
+      "required": true
+    },
+    "Cidade": {
+      "type": "string",
+      "required": true
+    },
+    "Complemento": {
+      "type": "text"
+    },
+    "Setor": {
+      "type": "string"
+    },
+    "Numero": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_socialmedias",
+  "info": {
+    "displayName": "socialmedia",
+    "icon": "user",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "socialNetwork": {
+      "type": "enumeration",
+      "enum": [
+        "facebook",
+        "twitter",
+        "linkedin",
+        "instagram"
+      ],
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

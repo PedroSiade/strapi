@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HomeCampos": {
+      "type": "dynamiczone",
+      "components": [
+        "home.acesso-rapido",
+        "home.somos",
+        "home.um-conselho-proximo",
+        "home.onde-estamos",
+        "home.biblioteca-virtual"
+      ]
+    },
+    "mediaApresentacao": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

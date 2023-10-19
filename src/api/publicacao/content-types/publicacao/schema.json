@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "publicacaos",
+  "info": {
+    "singularName": "publicacao",
+    "pluralName": "publicacaos",
+    "displayName": "Publicacao",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Padrao": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.padrao-publicacao",
+      "required": true
+    },
+    "Data": {
+      "type": "date",
+      "required": true
+    },
+    "TipoPublicacao": {
+      "type": "enumeration",
+      "enum": [
+        "Noticia",
+        "Um conselho + proximo",
+        "CRN4"
+      ],
+      "required": true
+    },
+    "Localizacao": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

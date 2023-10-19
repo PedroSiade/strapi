@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_home_somos",
+  "info": {
+    "displayName": "Somos",
+    "icon": "user",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "quantidadeTecnicos": {
+      "type": "integer"
+    },
+    "quantidadeNutricionistas": {
+      "type": "integer"
+    },
+    "mediasSomos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
